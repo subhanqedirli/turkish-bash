@@ -1,7 +1,7 @@
 alias kök="sudo su"
 alias depo-güncelle="sudo apt-get update"
 alias paket-güncelle="sudo apt-get upgrade"
-alias sistem-güncelle="sudo apt-get upgrade"
+alias sistem-güncelle="sudo apt-get full-upgrade"
 alias kur="sudo apt-get install"
 alias kaldır="sudo apt-get remove"
 alias ara="apt-cache search"
