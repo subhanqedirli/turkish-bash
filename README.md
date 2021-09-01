@@ -10,7 +10,7 @@ Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) 
 
 ```bash
 git clone https://github.com/subhanqedirli/turkish-bash.git
-cd Türkçe-bash
+cd turkish-bash
 ```
 
 ### türkçe-bash.txt dosyasını açalım:
