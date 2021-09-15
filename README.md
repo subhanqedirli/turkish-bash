@@ -2,7 +2,7 @@
 
 ## Açıklama
 
-Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch ve diğer Debian, arch tabanlı dağıtımlarda geçerlidir.
+Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch ve diğer Debian, Arch tabanlı dağıtımlarda geçerlidir.
 
 ## Kurulumu
 
