@@ -2,7 +2,7 @@
 
 ## Açıklama
 
-Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus ve diğer Debian tabanlı dağıtımlarda geçerlidir.
+Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch ve diğer Debian, Arch tabanlı dağıtımlarda geçerlidir.
 
 ## Kurulumu
 
@@ -13,22 +13,16 @@ git clone https://github.com/subhanqedirli/turkish-bash.git
 cd turkish-bash
 ```
 
-### türkçe-bash.txt dosyasını açalım:
-
+### Kurulumlarını çalıştırılabilir yapalım ve çalıştıralım:
 ```bash
-sudo nano türkçe-bash.txt
+#debian tabanlılarda
+chmod +x debian.sh
+./debian.sh
+
+#arch tabanlılarda
+chmod +x arch.sh
+./arch.sh
 ```
-
-Dosyanın içerisindeki her şeyi Ctrl+Shift+A, Ctrl+Shift+C aracılığıyla koplyayayım.
-
-### bashrc dosyasını editleyeylim:
-
-```bash
-cd
-sudo nano .bashrc
-```
-
-Dosyanın sonuna gelip az önce kopyaladığımız verileri buraya Ctrl+Shift+V aracılığıyla yapışıtralım. Ctrl+O, Crt+X aracılığıyla dosyayı kaydedelim.
 
 ## Kullanım
 
