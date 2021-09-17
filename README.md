@@ -6,7 +6,7 @@ Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) 
 
 ## Ekran Görüntüleri
 üstdeki Arch altdaki Ubuntuda (evet WSL lerde çalışıyor)
-![ArchWSL split UbuntuWSL in Windows Terminal](/images/screenshoot-1.png)
+![ArchWSL split UbuntuWSL in Windows Terminal](/images/screenshot-1.png)
 
 ## Kurulumu
 
