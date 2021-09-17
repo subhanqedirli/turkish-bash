@@ -4,6 +4,10 @@
 
 Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch ve diğer Debian, Arch tabanlı dağıtımlarda geçerlidir.
 
+## Ekran Görüntüleri
+üstdeki Arch altdaki Ubuntuda (evet WSL lerde çalışıyor)
+![ArchWSL split UbuntuWSL in Windows Terminal](/images/screenshoot-1.png)
+
 ## Kurulumu
 
 ### Dosyalarımız indirip uygun konuma taşıyalım:
@@ -119,4 +123,3 @@ Yazı yazdırma
 ```bash
 yaz
 ```
-
