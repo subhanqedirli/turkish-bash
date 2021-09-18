@@ -1,7 +1,12 @@
 #!/bin/sh
-cp $HOME/.bashrc /tmp/.bashrc
-echo ".bashrc yedeklendi (eğer hata varsa onu boşverin)"
-cat $HOME/.bashrc ./arch-türkçe-bash.txt > /tmp/.bashrc
+if [[ -f "$HOME/.bashrc"]]
+then
+  cp $HOME/.bashrc /tmp/.bashrc
+  echo ".bashrc yedeklendi"
+  cat $HOME/.bashrc ./arch-türkçe-bash.txt > /tmp/.bashrc
+else
+  cat ./arch-türkçe-bash.txt > /tmp/.bashrc
+fi
 echo "türkçe .bashrc oluşturuldu (/tmp/.bashrc)"
 rm $HOME/.bashrc
 echo ".bashrc silindi"
