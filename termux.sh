@@ -1,5 +1,5 @@
 #!/bin/sh
-if [[ -f "$HOME/.bashrc"]]
+if [[ -f "$HOME/.bashrc" ]]
 then
   cp $HOME/.bashrc $HOME/.bashrc.bckp
   echo ".bashrc yedeklendi (eğer hata varsa onu boşverin)"
