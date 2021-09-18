@@ -1,6 +1,6 @@
 #!/bin/sh
 cp $HOME/.bashrc $HOME/.bashrc.bckp
-echo ".bashrc yedeklendi"
+echo ".bashrc yedeklendi (eğer hata varsa onu boşverin)"
 cat $HOME/.bashrc ./termux-türkçe-bash.txt > $HOME/.bashrc.tmp
 echo "türkçe .bashrc oluşturuldu ($HOME/.bashrc.tmp)"
 rm $HOME/.bashrc
