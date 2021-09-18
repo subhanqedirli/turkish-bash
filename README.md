@@ -9,6 +9,10 @@ Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) 
 
 ![ArchWSL split UbuntuWSL in Windows Terminal](/images/screenshot-1.png)
 
+buda termux
+
+![termux](/images/screenshot-2.png)
+
 ## Kurulumu
 
 ### Dosyalarımız indirip uygun konuma taşıyalım:
