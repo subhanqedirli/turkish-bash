@@ -1,6 +1,6 @@
 #!/bin/sh
-cp $HOME/.bashrc $HOME/.bashrc.bckp
-echo ".bashrc yedeklendi"
+cp $HOME/.bashrc /tmp/.bashrc
+echo ".bashrc yedeklendi (eğer hata varsa onu boşverin)"
 cat $HOME/.bashrc ./arch-türkçe-bash.txt > /tmp/.bashrc
 echo "türkçe .bashrc oluşturuldu (/tmp/.bashrc)"
 rm $HOME/.bashrc
