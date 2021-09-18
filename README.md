@@ -2,7 +2,7 @@
 
 ## Açıklama
 
-Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch ve diğer Debian, Arch tabanlı dağıtımlarda geçerlidir.
+Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch, Termux(andoid) ve diğer Debian, Arch, Termux(bu tabanmı oluyor bilmiyorum -mertoalex) tabanlı dağıtımlarda geçerlidir.
 
 ## Ekran Görüntüleri
 üstdeki Arch altdaki Ubuntuda (evet WSL lerde çalışıyor)
@@ -27,6 +27,10 @@ chmod +x debian.sh
 #arch tabanlılarda
 chmod +x arch.sh
 ./arch.sh
+
+#termuxda
+chmod +x termux.sh
+./arch.sh
 ```
 
 ## Kullanım
@@ -41,7 +45,7 @@ Root yetkisi alma
 kök
 ```
 
-Depoyu güncelleme
+Depoyu güncelleme (termuxda böyle bir komut olmadığı için termuxda yok)
 
 ```bash
 depo-güncelle
@@ -53,7 +57,7 @@ Kurulu tüm paketleri güncelleme
 paket-güncelle
 ```
 
-Sistemi güncelleme
+Sistemi güncelleme (termuxda böyle bir komut olmadığı için termuxda yok)
 
 ```bash
 sistem-güncelle
