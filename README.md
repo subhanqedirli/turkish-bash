@@ -30,7 +30,7 @@ chmod +x arch.sh
 
 #termuxda
 chmod +x termux.sh
-./arch.sh
+./termux.sh
 ```
 
 ## Kullanım
