@@ -1,7 +1,12 @@
 #!/bin/sh
-cp $HOME/.bashrc $HOME/.bashrc.bckp
-echo ".bashrc yedeklendi"
-cat $HOME/.bashrc ./debian-türkçe-bash.txt > /tmp/.bashrc
+if [[ -f "$HOME/.bashrc" ]]
+then
+  cp $HOME/.bashrc /tmp/.bashrc
+  echo ".bashrc yedeklendi"
+  cat $HOME/.bashrc ./debian-türkçe-bash.txt > /tmp/.bashrc
+else
+  cat ./debian-türkçe-bash.txt > /tmp/.bashrc
+fi
 echo "türkçe .bashrc oluşturuldu (/tmp/.bashrc)"
 rm $HOME/.bashrc
 echo ".bashrc silindi"
