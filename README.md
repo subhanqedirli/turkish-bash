@@ -2,20 +2,24 @@
 
 ## Açıklama
 
-Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch, Termux(andoid) ve diğer Debian, Arch, Termux(bu tabanmı oluyor bilmiyorum -mertoalex) tabanlı dağıtımlarda geçerlidir.
+Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch, Termux(andoid), Void ve diğer Debian, Arch, Termux(bu tabanmı oluyor bilmiyorum -mertoalex) tabanlı dağıtımlarda geçerlidir.
 
 ## Ekran Görüntüleri
 üstdeki Arch altdaki Ubuntuda (evet WSL lerde çalışıyor)
 
-![ArchWSL split UbuntuWSL in Windows Terminal](/images/screenshot-1.png)
+![ArchWSL split UbuntuWSL in Windows Terminal](/images/archwslubuntuwsl.png)
 
-buda termux
+bu termux
 
-![termux](/images/screenshot-2.png)
+![termux](/images/termux.png)
+
+bunlarda void
+
+![void1](/images/void1.png)
 
 ## Kurulumu
 
-### Dosyalarımız indirip uygun konuma taşıyalım:
+### Dosyalarımızı indirelim:
 
 ```bash
 git clone https://github.com/subhanqedirli/turkish-bash.git
@@ -24,18 +28,17 @@ cd turkish-bash
 
 ### Kurulumlarını çalıştırılabilir yapalım ve çalıştıralım:
 ```bash
-#debian tabanlılarda
-chmod +x debian.sh
-./debian.sh
-
-#arch tabanlılarda
-chmod +x arch.sh
-./arch.sh
-
-#termuxda
-chmod +x termux.sh
-./termux.sh
+chmod +x yükle.sh
+./yükle.sh
 ```
+
+(sanalda denerken direkt /mnt ye atmıştım dosyayı -mertoalex) 
+
+![void2](/images/void2.png)
+
+(önceden .bashrc varsa kurulduktan sonra hata vermeden böyle demeli)
+
+![void3](/images/void3.png)
 
 ## Kullanım
 
@@ -79,7 +82,7 @@ Program kaldırma
 kaldır
 ```
 
-Depoda program arama
+Depoda program arama (void de komutunu bulamadım ondan sorry voidde yok -mertoalex)
 
 ```bash
 ara
