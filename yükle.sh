@@ -4,7 +4,7 @@ hepsi='\n#turkish-bash by subhanqedirli\nalias kök="sudo su"\nalias oluştur="t
 TERMUX='alias paket-güncelle="pkg upgrade"\nalias kur="pkg install"\nalias kaldır="pkg uninstall"\nalias ara="pkg search"\n'
 DEBIAN='alias depo-güncelle="sudo apt-get update"\nalias paket-güncelle="sudo apt-get upgrade"\nalias sistem-güncelle="sudo apt-get full-upgrade"\nalias kur="sudo apt-get install"\nalias kaldır="sudo apt-get remove"\nalias ara="apt-cache search"\n'
 ARCH='alias depo-güncelle="sudo pacman -Sy"\nalias paket-güncelle="sudo pacman -Su"\nalias sistem-güncelle="sudo pacman -Syyu"\nalias kur="sudo pacman -S"\nalias kaldır="sudo pacman -R"\nalias ara="pacman -Q"\n'
-VOID='alias depo-güncelle="sudo xbps-install -S"\nalias paket-güncelle="sudo xbps-install -Su"\nalias sistem-güncelle="sudo xbps-install -Su"\nalias kur="sudo xbps-install"\nalias kaldır="sudo xbps-remove"\n'
+VOID='alias depo-güncelle="sudo xbps-install -S"\nalias paket-güncelle="sudo xbps-install -Su"\nalias sistem-güncelle="sudo xbps-install -Su"\nalias kur="sudo xbps-install"\nalias kaldır="sudo xbps-remove"\nalias ara="xbps-query -Rs"\n'
 hicbiri=''
 
 printf "
