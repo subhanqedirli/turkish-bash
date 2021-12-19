@@ -2,7 +2,7 @@
 
 ## Açıklama
 
-Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch, Termux(andoid), Void ve diğer Debian, Arch, Termux(bu tabanmı oluyor bilmiyorum -mertoalex) tabanlı dağıtımlarda geçerlidir.
+Türkçe bashi kullanarak günlük hayatta sık kullanılan(program kurma gibi) bash komutlarını türkçe olarak kullana bilirsiniz. Komutlar Debian, Ubuntu, Mint, Pardus, Manjaro, BlackArch, Termux(andorid), Void ve diğer Debian, Arch, Void tabanlı dağıtımlarda geçerlidir.
 
 ## Ekran Görüntüleri
 üstdeki Arch altdaki Ubuntuda (evet WSL lerde çalışıyor)
@@ -13,7 +13,7 @@ bu termux
 
 ![termux](/images/termux.png)
 
-bunlarda void
+buda void
 
 ![void1](/images/void1.png)
 
@@ -82,7 +82,7 @@ Program kaldırma
 kaldır
 ```
 
-Depoda program arama (void de komutunu bulamadım ondan sorry voidde yok -mertoalex)
+Depoda program arama
 
 ```bash
 ara
